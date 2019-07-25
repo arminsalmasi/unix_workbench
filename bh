@@ -1,0 +1,500 @@
+cd pdc_res/
+ls
+cd NVT_differenet_volumes_pdc_res/
+ls
+cd NTE/
+ls
+ls
+more ../get_NTE.sh 
+cd ..
+ls
+cd NTE/
+ls
+rm *
+ls
+cd ..
+vi get_NTE.sh 
+./get_NTE.sh 
+ls a_3.4
+ls -la
+ls -la a_3.4
+cp */NTEres* NTE/
+
+vi get_NTE.sh 
+./get_NTE.sh 
+cp */NTEres*.txt NTE/
+ls NTE
+ls
+rm */NTE*
+ls
+vi NTE/
+clear
+ls a_3.4
+
+./get_NTE.sh 
+vi get_NTE.sh 
+./get_NTE.sh 
+grep "T=" a_3.4/log 
+grep "T=" a_3.4/log | awk '{print $1 $3 $5}'
+grep "T=" a_3.4/log | awk '{print $1 $2 $5}'
+grep "T=" a_3.4/log | awk '{print $1 $3}'
+grep "T=" a_3.4/log | awk '{print $1 " " $3}'
+grep "T=" a_3.4/log 
+grep "T=" a_3.4/log | awk '{print $1 " " $3 " " $5 " " $7}'
+grep "T=" a_3.4/log 
+grep "T=" a_3.4/log | awk '{print $1 " " $3 " " $5 " " $7 " " $9 " " $11}'
+grep "T=" a_3.4/log | awk '{print $1 " " $3 " " $5 " " $7 " " $9 " " $11 " " $13}'
+grep "T=" a_3.4/log | awk '{print $1 " " $3 " " $5 " " $7 " " $9 " " $11 " " $13 " " $15 " " $17}'
+grep "T=" a_3.4/log | awk '{print $1 " " $3 " " $5 " " $7 " " $9 " " $11 " " $13 " " $15 " " $17}' grep "T=" a_3.4/log | awk '{print $1 " " $3 " " $5 " " $7 " " $9 " " $11 " " $13 " " $15 " " $17}'
+grep "T=" a_3.4/log | awk '{print $1 " " $3 " " $5 " " $7 " " $9 " " $11 " " $13 " " $15 " " $17}' 
+grep "T=" a_3.4/log | awk '{print $1 " " $3 " " $5 " " $7 " " $9 " " $11 " " $13 " " $15 " " $17}'
+vi get
+vi get_NTE.sh 
+vi get_NTE.sh 
+./get_NTE.sh NTE/
+vi get_NTE.sh 
+rm -r NTE/*
+rm NTE/
+rm -r NTE/*
+ls NTE/
+./get_NTE.sh 
+ls NTE
+ls -la a_3.4
+vi get_NTE.sh 
+./get_NTE.sh NTE/
+ls NTE/
+more NTE/NTEresa_34
+more NTE/NTEresa_34.txt 
+grep  volume a_3.4/OUTCAR 
+grep  volume a_3.*/OUTCAR 
+grep  volume a_3.*/OUTCAR | tail -n 1
+vi get_NTE.sh 
+./get_NTE.sh 
+vi get_NTE.sh 
+grep pressure a*/OUTCAR
+grep PRESSURE a*/OUTCAR
+grep P a*/OUTCAR
+grep P a_3.4/OUTCAR
+grep "P=" a_3.4/OUTCAR
+grep "P" a_3.4/OUTCAR
+grep "stress" a_3.4/OUTCAR
+grep "p=" a_3.4/OUTCAR
+grep "Pstress" a_3.4/OUTCAR
+grep "pul" a_3.4/OUTCAR
+grep "pullay" a_3.4/OUTCAR
+grep "ext" a_3.4/OUTCAR
+grep "exter" a_3.4/OUTCAR
+grep "hydro" a_3.4/OUTCAR
+grep "P" a_3.4/OUTCAR
+grep "P=" a_3.4/OUTCAR
+vi get_NTE.sh 
+./get_NTE.sh 
+cd NTE/
+ls
+cd ..
+vi get_NTE.sh 
+./get_NTE.sh 
+ls NTE
+ls
+rm *.txt
+rm *.txt
+rm *.out
+ls
+vi get_NTE.sh 
+./get_NTE.sh NTE/
+ls NTE/
+grep T= a_3.4/log 
+top
+ls
+yapfi
+top
+sisyfos
+top
+clear
+c /home/salmasi/
+ks
+ls
+cd /home/salmasi/
+ls
+cd Gradsint_LPM/
+ks
+ls
+cd 8-LM-16/
+ls
+tail -f log 
+exit
+sisyfos
+exit
+sisyfos
+top
+cd cobalt_aimd/cobalt/3_NVT_step1/NVT_differenet_volumes/
+ls
+grep PSTRESS */OUTCAR
+grep PSTRESS a_3.*/OUTCAR
+grep PSTRESS a_3.4/OUTCAR
+grep PSTRESS a_3.41/OUTCAR
+grep PSTRESS a_3.42/OUTCAR
+grep PSTRESS a_3.43/OUTCAR
+cd a_3.4
+ls
+vi OUTCAR 
+cd ..
+ls
+ls -la  a_3.46
+ls -la  a_3.42
+ls -la  a_3.41
+ls -la  a_3.47
+ls -la  a_3.48
+cd ..
+ls
+cd pdc_res/
+grep PSTRESS */OUTCAR
+grep PSTRESS NVT_differenet_volumes_pdc_res/a*/OUTCAR
+NVT_differenet_volumes_pdc_res/a_3.41/OUTCAR:   PSTRESS=    0.0 pullay stress
+NVT_differenet_volumes_pdc_res/a_3.42/OUTCAR:   PSTRESS=    0.0 pullay stress
+NVT_differenet_volumes_pdc_res/a_3.43/OUTCAR:   PSTRESS=    0.0 pullay stress
+NVT_differenet_volumes_pdc_res/a_3.44/OUTCAR:   PSTRESS=    0.0 pullay stress
+NVT_differenet_volumes_pdc_res/a_3.45/OUTCAR:   PSTRESS=    0.0 pullay stress
+NVT_differenet_volumes_pdc_res/a_3.46/OUTCAR:   PSTRESS=    0.0 pullay stress
+NVT_differenet_volumes_pdc_res/a_3.47/OUTCAR:   PSTRESS=    0.0 pullay stress
+NVT_differenet_volumes_pdc_res/a_3.48/OUTCAR:   PSTRESS=    0.0 pullay stress
+NVT_differenet_volumes_pdc_res/a_3.49/OUTCAR:   PSTRESS=    0.0 pullay stress
+NVT_differenet_volumes_pdc_res/a_3.4/OUTCAR:   PSTRESS=    0.0 pullay stress
+NVT_differenet_volumes_pdc_res/a_3.5/OUTCAR:   PSTRESS=    0.0 pullay stress
+grep volume NVT_differenet_volumes_pdc_res/a*/OUTCAR
+grep volume NVT_differenet_volumes_pdc_res/a*/OUTCAR | tail -a
+for d in *; do 
+ls
+ls ~/home-bin/
+ls ~/home-bin/my_commands_log 
+ls ~/home-bin/my_commands_log/
+ls ~/home-bin/my_commands_log
+ls ~/home-bin/armin_scripts/
+ls ~/home-bin/armin_scripts/ls
+ls
+cd ..
+ls
+cd pdc_res/
+ls
+cd NVT_differenet_volumes_pdc_res/
+ls
+more get_NTE.sh 
+cd NTE/
+l
+ls
+more volumea_3l*
+more volumea_341.txt 
+more volumea_3* 
+             ::::::::::::::
+volumea_341.txt
+::::::::::::::
+  volume of cell :     2537.72
+::::::::::::::
+volumea_342.txt
+::::::::::::::
+  volume of cell :     2560.11
+::::::::::::::
+volumea_343.txt
+::::::::::::::
+  volume of cell :     2582.63
+::::::::::::::
+volumea_344.txt
+::::::::::::::
+  volume of cell :     2605.29
+::::::::::::::
+volumea_345.txt
+::::::::::::::
+  volume of cell :     2628.07
+::::::::::::::
+volumea_346.txt
+::::::::::::::
+  volume of cell :     2650.99
+::::::::::::::
+volumea_347.txt
+::::::::::::::
+  volume of cell :     2674.04
+::::::::::::::
+volumea_348.txt
+::::::::::::::
+  volume of cell :     2697.23
+::::::::::::::
+volumea_349.txt
+::::::::::::::
+  volume of cell :     2720.55
+::::::::::::::
+volumea_34.txt
+::::::::::::::
+  volume of cell :     2515.46
+::::::::::::::
+volumea_35.txt
+::::::::::::::
+  volume of cell :     2744.00
+cd ..
+ls
+grep PSTRESS *
+grep PSTRESS */OUTCAR
+a_3.41/OUTCAR:   PSTRESS=    0.0 pullay stress
+a_3.42/OUTCAR:   PSTRESS=    0.0 pullay stress
+a_3.43/OUTCAR:   PSTRESS=    0.0 pullay stress
+a_3.44/OUTCAR:   PSTRESS=    0.0 pullay stress
+a_3.45/OUTCAR:   PSTRESS=    0.0 pullay stress
+a_3.46/OUTCAR:   PSTRESS=    0.0 pullay stress
+
+a_3.48/OUTCAR:   PSTRESS=    0.0 pullay stress
+a_3.49/OUTCAR:   PSTRESS=    0.0 pullay stress
+a_3.4/OUTCAR:   PSTRESS=    0.0 pullay stress
+cd /home/salmasi/
+ls
+cd ~
+cd cobalt_aimd/
+ls
+cd cobalt/
+ks
+ls
+cd 3_NVT_step1/
+ls
+ls
+cd pdc_res/
+l
+ls
+cd NVT_differenet_volumes_pdc_res/
+ls
+sisyfos
+glaucus 
+sisyfos
+vi ~/.bash_aliases 
+source .bashrc
+beskow
+clear
+beskow
+beskow 
+beskow
+kinit
+ls
+exuit
+exit
+beskow
+top
+clear
+beskow
+exit
+beskow
+exit
+beskow
+beskow
+clear
+cd cobalt_aimd/cobalt/3_NVT_step1/pdc_res/
+ls
+cp NVT_differenet_volumes_pdc_res/
+cd NVT_differenet_volumes_pdc_res/
+ls
+vi a_3.4/INCAR 
+clear
+top
+cd /home/salmasi/
+ls
+cd Gradsint_LPM/
+ls
+tail -f 8-LM-16/log 
+ls
+cd ..
+ks
+ls
+ls -l /proc/9043/cwd
+clear
+exit
+ls -l /proc/
+ls -l /proc/ 
+ls -l /proc/ | grep yapfi
+ls -l /proc/. | grep yapfi
+ls -l /proc/> proc &&  grep yapfi proc
+rm proc
+readlin /proc/
+readlin /proc/$(yapfi)
+clear
+ls
+cd cobalt_aimd/
+cd cobalt/
+cd 3_NVT_step1/
+ls
+cd NVT_differenet_volumes/
+ks
+ls
+cd a_3.4
+tail -f log 
+vi INCAr
+vi "INCAr
+VI incar
+vi INCAR 
+ls
+ulimit -u unlimited
+ulimit -h
+ulimit --help
+ulimit -s unlimited
+more POSCAR
+                     ls
+supersize POSCAR.1x1x1 4x4x4
+ls
+cp POSCAR.4x4x4 POSCAR
+more POSCAR
+                       
+top
+w
+mpirun -np 24 vasp_gamma_tbdyn >log
+bg
+jobs
+disown %1
+tail -f log 
+top
+tail -f log 
+wget --help
+get https://www.nsc.liu.se/~pla/software/vaspcheck-standalone.py ~/home-bin/armin_scripts/
+wget https://www.nsc.liu.se/~pla/software/vaspcheck-standalone.py ~/home-bin/armin_scripts/
+chmod u+x ~/home-bin/armin_scripts/var_Volume_of_cell.sh 
+~/home-bin/armin_scripts/var_Volume_of_cell.sh 
+~/home-bin/armin_scripts/var_Volume_of_cell.sh .
+~/home-bin/armin_scripts/var_Volume_of_cell.sh ./
+
+cp ~/home-bin/armin_scripts/var_Volume_of_cell.sh .
+ls
+chmod u+x vaspcheck-standalone.py 
+./vaspcheck-standalone.py 
+ls
+tail -f log
+clear
+top
+killall -9 131661
+killall -9 131663
+top
+kill -9 131663
+top
+ls
+vi INCAR 
+./vaspcheck-standalone.py 
+vi CONTCAR
+mv CONTCAR POSCAR
+ls
+cleanall 
+ls
+cleanall .
+ls
+rm log
+ls
+mpirun -np 24 vasp_gamma_tbdyn >log
+bg
+disown %1
+tail -f log 
+exit
+top
+cd cobalt_aimd/cobalt/3_NVT_step1/
+ls
+cd NVT_differenet_volumes/
+ls
+cd a_3.4
+ls
+more log
+ clear
+exit
+beskow
+echo $KRB5_CONFIG
+vi ~/.ssh/config
+vi ~/.ssh/config
+ls -la ~/.ssh/config 
+chmod 644 ~/.ssh/config 
+ls -la ~/.ssh/config 
+ssh salmasi@beskow.pdc.kth.se
+kinit
+ssh -o GSSAPIDelegateCredentials=yes -o GSSAPIKeyExchange=yes     -o GSSAPIAuthentication=yes <username>@<cluster>.pdc.kth.se
+ssh -o GSSAPIDelegateCredentials=yes -o GSSAPIKeyExchange=yes  -o GSSAPIAuthentication=yes salmasi@beskow.pdc.kth.se
+sisyfos
+source .bashrc
+beskow
+kinit
+klist -f
+kinit -f salmasi@NADA.kth.se
+kinit -f salmasi@NADA.KTH.SE
+beskow
+beskow 
+sisyfos
+beskow
+kinit
+export KRB5_CONFIG=~/pdckrb/krb5.conf
+echo $KRB5_CONFIG 
+kinit -f salamsi@NADA.KTH.SE
+kinit -f salmasi@NADA.KTH.SE
+kinit -list
+kinit --help
+kinit -f salmasi@NADA.KTH.SE
+klist 
+beskow
+born
+sisyfos
+exit
+cd cobalt_aimd/cobalt/
+ls
+cd 3_NVT_step1/pdc_res/
+ls
+cd NVT_differenet_volumes_pdc_res/
+ls
+ls ~/home-bin/check*
+ls ~/home-bin/checkISMEAR-NBANDS.sh */
+ls ~/home-bin/checkISMEAR-NBANDS.sh */OUTCAR
+~/home-bin/checkISMEAR-NBANDS.sh */OUTCAR
+~/home-bin/checkISMEAR-NBANDS.sh */
+cd a_3.4 
+~/home-bin/checkISMEAR-NBANDS.sh
+~/home-bin/checkISMEAR-NBANDS.sh OUTCAR 
+vi ~/home-bin/checkISMEAR-NBANDS.sh 
+grep NBANDS *
+ls
+cd ../
+ls
+cd ..
+ls
+cd ../
+ls
+cd //
+cd ~/cobalt_aimd/cobalt/
+ls
+cd 2
+ls
+more nband_methfesel 
+ls ~/home-bin/
+ls ~/home-bin/*band*
+ls ~/home-bin/*NBAAND*
+ls
+~/home-bin/checkISMEAR-NBANDS.sh 
+~/home-bin/checkISMEAR-NBANDS.sh OUTCAR
+~/home-bin/checkISMEAR-NBANDS.sh ./OUTCAR
+ls ~/home-bin/
+ll ~/home-bin/
+grep check ~/.bash_history 
+grep band ~/.bash_history 
+rm ~/home-bin/T_E.txt 
+ls
+mv ~/home-bin/var_Volume_of_cell.sh ~/home-bin/armin_scripts/
+ls
+lsmv 
+mv ~/home-bin/my_commands_log ~/home-bin/armin_scripts/
+ll ~/home-bin/
+getNNsigma.py 
+lsd
+ls
+more nband_fermi 
+more nband_methfesel 
+cd ../3_NVT_step1/
+ls
+exit
+beskow
+kinit list
+kinit +list
+kinit -lisف
+kinit -list
+kinit 
+ls
+clear
+beskow
+exit
+beskow
+klist
+ssh salmasi@beskow.pdc.kth.se
