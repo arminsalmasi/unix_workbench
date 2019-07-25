@@ -502,3 +502,4 @@ ssh salmasi@beskow.pdc.kth.se
 pwd
 pwcd
 ls -l
+ls
